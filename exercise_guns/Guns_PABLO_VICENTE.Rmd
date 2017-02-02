@@ -1,0 +1,17 @@
+---
+title: "A study of gun death"
+author: "Pablo Vicente"
+date: "2/2/2017"
+output: html_document
+---
+
+##### Loading required libraries
+
+```{r Code Block 1, message=FALSE}
+library(babynames)
+library(ggplot2)    # the king of plotting 
+library(magrittr)   # chain operators, e.g. to "pipe" a value forward
+library(dplyr)      # for data manipulation 
+```
+
+##### A few functions to visualize our dataset
